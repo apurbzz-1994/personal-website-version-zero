@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Empty Me</title>
+</head>
+<style>
+    /* div {
+            border: 2px solid magenta;    
+    } */
+</style>
+<body>
+    <div class = "container">
+        <div class = "row">
+            <!--header-->
+            <div class="col-12 col-md-12 col-lg-12" style = "margin: 10% 0 10% 0">
+                <h1>Empty Me - IoT rubbish bin</h1>
+                <p style="text-align: right;"><a href="index.html" class="a-page">Home</a> > <b>Empty Me</b></p>
+            </div>
+            <!--info-->
+            <div class = "col-12 col-md-6 col-lg-6">
+                <div>
+                    <h3>Problem</h3>
+                    <p>
+                        Living in a shared-house setting involves 
+                        dividing house chores amongst the residents, and this includes emptying rubbish 
+                        bins located inside the house and taking the outside bins to the curb before 
+                        garbage pickup day.
+                    </p>
+                    <p>
+                        For most houses, the landlord often sanctions a roster that assigns a 
+                        given room of the house each week for bin-duty. However, this roster is 
+                        never strictly followed, not because the residents are lazy or occupied,
+                         but simply because they forget their turn, and there is no mechanism to 
+                         remind them effectively on the fly.
+                    </p>
+                    <p>
+                        The repercussions of leaving bins full to the brim may often times be 
+                        severe as rubbish and waste from the kitchen remaining unattended for 
+                        long periods of time is extremely unhygienic and can spew bad odour and 
+                        diseases. Basically, a physical roster is not very efficient.
+                    </p>
+                    <p>
+                        All in all, <b>we are now-a-days more accustomed to acknowledging a notification on our dedicated device as opposed to a roster taped on the wall</b>, 
+                        and our solution to the bin day problem revolves around this.
+                    </p>
+                        
+                </div>
+                <div class="custom-p">
+                    <h3>Solution</h3>
+                    <p><b>Empty Me</b> is an iOT based solution that assists better waste management 
+                        for shared houses and student accommodations. It comprises of two parts - 
+                        an iOS app that allows landlords to add houses, tenants and also to create a 
+                        bin-duty roster; an internet connected rubbish bin that alerts tenants to 
+                        throw rubbish away when bin is full via the app.</p>
+                </div>
+                <div class="custom-p">
+                    <h3>Process</h3>
+                    <p>Empty Me was developed by a team of 2 students as part of their Advanced Mobile Development
+                        Unit at Monash University. 
+                        I was responsible for:
+                        <ul>
+                            <li>Developing the backend for storing tenant and house details using Firebase.</li>
+                            <li>Developing a log-in system in iOS with Firebase with two different portals for landlord and tenant.</li>
+                            <li>Implementing sensor circuit with Raspberry Pi and Johnny-Five (JavaScript) scripting that detects rubbish levels and uploads it online in real time.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="custom-p-tags">
+                    <span class = "tags">Swift Programming</span>
+                    <span class = "tags">iOS Development</span>
+                    <span class = "tags">Firebase</span>
+                    <span class = "tags">Raspberry Pi</span>
+                    <span class = "tags">Sensor integration and IoT</span>
+                    <span class = "tags">NodeJS</span>
+                </div>
+            </div>
+            <!--images-->
+            <div class = "col-12 col-md-6 col-lg-6">
+                <div class = "row">
+                    <div class = "col-12 col-md-6 col-lg-6">
+                        <img src = "images/Empty_me/one.png" class="img-fluid custom-img">
+                    </div>
+                    <div class = "col-12 col-md-6 col-lg-6">
+                        <img src = "images/Empty_me/four.png" class="img-fluid custom-img">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <img src = "images/Empty_me/three.png" class="img-fluid custom-img">
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class = "col-12 col-md-6 col-lg-6">
+                        <img src = "images/Empty_me/five.png" class="img-fluid custom-img">
+                    </div>
+                    <div class = "col-12 col-md-6 col-lg-6">
+                        <img src = "images/Empty_me/two.png" class="img-fluid custom-img">
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class = "col-12 col-md-6 col-lg-6">
+                        <img src = "images/Empty_me/c2.png" class="img-fluid custom-img">
+                    </div>
+                    <div class = "col-12 col-md-6 col-lg-6">
+                        <img src = "images/Empty_me/c1.png" class="img-fluid custom-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
